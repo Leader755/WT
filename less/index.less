@@ -1,0 +1,179 @@
+//定义一个移动的转换的基数
+@base:200rem;
+
+*{
+  margin: 0;
+  padding: 0;
+  -webkit-tap-highlight-color: transparent;
+  box-sizing: border-box;
+}
+ul,li{
+  list-style: none;
+}
+body,html{
+  font-family: "Microsoft Yahei", "微软雅黑";
+}
+body{
+  background-color: #DF3939;
+}
+a{
+  text-decoration: none;
+}
+
+.clearfix:after{
+  content: "";
+  display: block;
+  clear: both;
+}
+header img{
+  display: block;
+  width: 100%;
+}
+
+.count{
+  height: 360/@base;
+  background: url("../images/2_02.jpg") no-repeat;
+  background-size: contain;
+  div{
+    float: left;
+    width: 480/@base;
+    margin-top: 117/@base;
+    margin-left: 116/@base;
+    display: flex;
+    justify-content: space-around;
+  }
+  span{
+    width: 48/@base;
+    height: 60/@base;
+    display: inline-block;
+    //border: 1px solid #fff;
+    text-align: center;
+    line-height: 60/@base;
+    font-size: 48/@base;
+    color: #fff;
+    margin: 2/@base;
+  }
+}
+
+.top-people{
+  h2{
+    height: 83/@base;
+    background:url("../images/3_05.jpg") no-repeat;
+    background-size: contain;
+  }
+  .department{
+    margin: 0 23/@base;
+    background-color: #FFDC4E;
+    border-radius: 0 0 15/@base 15/@base;
+    h3{
+      text-align: center;
+      font-size: 30/@base;
+      font-weight: normal;
+      color: #CA7403;
+      line-height: 60/@base;
+      padding: 30/@base 0;
+    }
+    .list{
+      font-size: 30/@base;
+      padding: 0 0 0 40/@base;
+      span{
+        float: left;
+        width: 194/@base;
+        height: 80/@base;
+        text-align: center;
+        line-height: 80/@base;
+        color: #fff;
+        background: url("../images/4_08.jpg") no-repeat;
+        background-size: contain;
+        margin-right: 20/@base;
+        margin-bottom: 20/@base;
+      }
+    }
+    .more{
+      font-size: 30/@base;
+      text-align: center;
+      padding-bottom: 30/@base;
+      a{
+        display: inline-block;
+        font-size: 30/@base;
+        padding: 0 30/@base 0 50/@base;
+        color: #DE3838;
+        line-height: 35/@base;
+        background: url("../images/arrow.jpg") right no-repeat;
+        background-size: contain;
+        span{
+          border-bottom: 3px solid #DE3838;
+        }
+      }
+    }
+  }
+}
+.pop-department{
+  margin-top: 100/@base;
+  h2{
+      height: 93/@base;
+      background: url("../images/8_02.jpg") no-repeat;
+    background-size: contain;
+
+  }
+  .wrap{
+    margin: 0 23/@base;
+    padding: 40/@base 20/@base;
+    border: 20/@base solid #FFDC4E;
+    background-color: #fff;
+    font-size: 30/@base;
+    border-radius: 0 0 10/@base 10/@base;
+  }
+  .pop-footer{
+    font-size: 30/@base;
+    text-align: center;
+    line-height: 50/@base;
+    color: #DD8106;
+    margin-top: 10/@base;
+    a{
+      color: #E03837;
+    }
+  }
+  .profession{
+
+
+
+    li{
+      position: relative;
+      padding-bottom: 20/@base;
+      border-bottom: 2/@base solid #ccc;
+      margin-bottom: 15/@base;
+
+      i{
+        position: absolute;
+        right: 10/@base;
+        top: 20/@base;
+        width: 34/@base;
+        height: 49/@base;
+        background: url("../images/r10_c7.jpg") no-repeat right;
+      }
+    }
+    h3{
+      font-weight: normal;
+      color: #E03837;
+    }
+    span{
+      float: left;
+      height: 46/@base;
+      padding: 0 20/@base;
+      line-height: 46/@base;
+      font-size: 24/@base;
+      background-color: #f1f1f1;
+      color: #999898;
+      margin-right: 16/@base;
+      border-radius: 5/@base;
+    }
+  }
+}
+
+footer{
+  text-align: center;
+  font-size: 30/@base;
+  color: #BF191D;
+  line-height: 120/@base;
+}

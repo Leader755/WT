@@ -1,0 +1,137 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>58招聘</title>
+    <link rel="stylesheet" href="css/index.css"/>
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0"/>
+</head>
+<body>
+    <header>
+        <img src="images/1_01.gif" alt=""/>
+    </header>
+    <!--58正在找工作人数-->
+    <div class="count">
+        <div>
+            <span>9</span>
+            <span>8</span>
+            <span>7</span>
+            <span>6</span>
+            <span>5</span>
+            <span>4</span>
+            <span>3</span>
+            <span>2</span>
+            <span>1</span>
+        </div>
+    </div>
+    <!--人气招聘-->
+    <div class="top-people">
+        <h2></h2>
+        <div class="department">
+            <h3>投递简历有机会获得开工礼呦</h3>
+            <div class="list clearfix">
+                <span>销售</span>
+                <span>客服</span>
+                <span>普工</span>
+                <span>司机</span>
+                <span>快递</span>
+                <span>客服</span>
+                <span>客服</span>
+                <span>客服</span>
+                <span>客服</span>
+                <span>客服</span>
+                <span>客服</span>
+                <span>客服</span>
+                <span>客服</span>
+                <span>客服</span>
+                <span>客服</span>
+            </div>
+            <div class="more">
+                <a href=""><span>写简历</span></a>
+                <a href=""><span>更多职位</span></a>
+            </div>
+        </div>
+    </div>
+    <!--热招行业-->
+    <div class="pop-department">
+         <h2></h2>
+            <div class="wrap">
+                <ul class="profession">
+                    <li>
+                        <h3>财务/审计</h3>
+                        <div class="list clearfix">
+                            <span>会计师</span>
+                            <span>出纳</span>
+                        </div>
+                        <i></i>
+                    </li>
+                    <li>
+                        <h3>财务/审计</h3>
+                        <div class="list clearfix">
+                            <span>会计师</span>
+                            <span>出纳</span>
+                        </div>
+                        <i></i>
+                    </li>
+                    <li>
+                        <h3>财务/审计</h3>
+                        <div class="list clearfix">
+                            <span>会计师</span>
+                            <span>出纳</span>
+                        </div>
+                        <i></i>
+                    </li>
+                    <li>
+                        <h3>财务/审计</h3>
+                        <div class="list clearfix">
+                            <span>会计师</span>
+                            <span>出纳</span>
+                        </div>
+                        <i></i>
+                    </li>
+                    <li>
+                        <h3>财务/审计</h3>
+                        <div class="list clearfix">
+                            <span>会计师</span>
+                            <span>出纳</span>
+                        </div>
+                        <i></i>
+                    </li>
+                    <li>
+                        <h3>财务/审计</h3>
+                        <div class="list clearfix">
+                            <span>会计师</span>
+                            <span>出纳</span>
+                        </div>
+                        <i></i>
+                    </li>
+                </ul>
+                <div class="pop-footer">
+                    24小时反馈，<a href="">更多极速入职机会</a>
+                </div>
+            </div>
+
+    </div>
+    <!--底部版权-->
+    <footer>
+        &copy;58.com 帮助中心
+    </footer>
+<script>(function () {
+    var supportsOrientationChange = 'onorientationchange' in window ? 'orientationchange' : 'resize';
+    var timeoutId;
+    function setRem() {
+        var clientWidth = document.documentElement.clientWidth;
+        var nowPX = clientWidth / 375 * 100;
+        document.documentElement.style.fontSize = nowPX + 'px';
+    }
+    setRem();
+    window.addEventListener(supportsOrientationChange, function () {
+        clearTimeout(timeoutId);
+        timeoutId = setTimeout(function () {
+            setRem();
+        }, 300);
+    }, false);
+})();</script>
+</body>
+</html>

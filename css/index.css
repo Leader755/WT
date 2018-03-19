@@ -1,0 +1,164 @@
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-tap-highlight-color: transparent;
+  box-sizing: border-box;
+}
+ul,
+li {
+  list-style: none;
+}
+body,
+html {
+  font-family: "Microsoft Yahei", "微软雅黑";
+}
+body {
+  background-color: #DF3939;
+}
+a {
+  text-decoration: none;
+}
+.clearfix:after {
+  content: "";
+  display: block;
+  clear: both;
+}
+header img {
+  display: block;
+  width: 100%;
+}
+.count {
+  height: 1.8rem;
+  background: url("../images/2_02.jpg") no-repeat;
+  background-size: contain;
+}
+.count div {
+  float: left;
+  width: 2.4rem;
+  margin-top: 0.585rem;
+  margin-left: 0.58rem;
+  display: flex;
+  justify-content: space-around;
+}
+.count span {
+  width: 0.24rem;
+  height: 0.3rem;
+  display: inline-block;
+  text-align: center;
+  line-height: 0.3rem;
+  font-size: 0.24rem;
+  color: #fff;
+  margin: 0.01rem;
+}
+.top-people h2 {
+  height: 0.415rem;
+  background: url("../images/3_05.jpg") no-repeat;
+  background-size: contain;
+}
+.top-people .department {
+  margin: 0 0.115rem;
+  background-color: #FFDC4E;
+  border-radius: 0 0 0.075rem 0.075rem;
+}
+.top-people .department h3 {
+  text-align: center;
+  font-size: 0.15rem;
+  font-weight: normal;
+  color: #CA7403;
+  line-height: 0.3rem;
+  padding: 0.15rem 0;
+}
+.top-people .department .list {
+  font-size: 0.15rem;
+  padding: 0 0 0 0.2rem;
+}
+.top-people .department .list span {
+  float: left;
+  width: 0.97rem;
+  height: 0.4rem;
+  text-align: center;
+  line-height: 0.4rem;
+  color: #fff;
+  background: url("../images/4_08.jpg") no-repeat;
+  background-size: contain;
+  margin-right: 0.1rem;
+  margin-bottom: 0.1rem;
+}
+.top-people .department .more {
+  font-size: 0.15rem;
+  text-align: center;
+  padding-bottom: 0.15rem;
+}
+.top-people .department .more a {
+  display: inline-block;
+  font-size: 0.15rem;
+  padding: 0 0.15rem 0 0.25rem;
+  color: #DE3838;
+  line-height: 0.175rem;
+  background: url("../images/arrow.jpg") right no-repeat;
+  background-size: contain;
+}
+.top-people .department .more a span {
+  border-bottom: 3px solid #DE3838;
+}
+.pop-department {
+  margin-top: 0.5rem;
+}
+.pop-department h2 {
+  height: 0.465rem;
+  background: url("../images/8_02.jpg") no-repeat;
+  background-size: contain;
+}
+.pop-department .wrap {
+  margin: 0 0.115rem;
+  padding: 0.2rem 0.1rem;
+  border: 0.1rem solid #ffdc4e;
+  background-color: #fff;
+  font-size: 0.15rem;
+  border-radius: 0 0 0.05rem 0.05rem;
+}
+.pop-department .pop-footer {
+  font-size: 0.15rem;
+  text-align: center;
+  line-height: 0.25rem;
+  color: #DD8106;
+  margin-top: 0.05rem;
+}
+.pop-department .pop-footer a {
+  color: #E03837;
+}
+.pop-department .profession li {
+  position: relative;
+  padding-bottom: 0.1rem;
+  border-bottom: 0.01rem solid #cccccc;
+  margin-bottom: 0.075rem;
+}
+.pop-department .profession li i {
+  position: absolute;
+  right: 0.05rem;
+  top: 0.1rem;
+  width: 0.17rem;
+  height: 0.245rem;
+  background: url("../images/r10_c7.jpg") no-repeat right;
+}
+.pop-department .profession h3 {
+  font-weight: normal;
+  color: #E03837;
+}
+.pop-department .profession span {
+  float: left;
+  height: 0.23rem;
+  padding: 0 0.1rem;
+  line-height: 0.23rem;
+  font-size: 0.12rem;
+  background-color: #f1f1f1;
+  color: #999898;
+  margin-right: 0.08rem;
+  border-radius: 0.025rem;
+}
+footer {
+  text-align: center;
+  font-size: 0.15rem;
+  color: #BF191D;
+  line-height: 0.6rem;
+}
